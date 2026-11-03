@@ -1,0 +1,31 @@
+{
+  "niche": "Konten edukasi bisnis kecil dan UMKM di Instagram Reels, bahasa Indonesia santai",
+  "shift": "19.00-07.00 WIB",
+  "agents": [
+    {
+      "id": "gilang", "name": "Gilang", "role": "Content Analyst", "room": "konten",
+      "task": "Baca data performa konten (jika ada). Cari 3 pola hook yang menang dan 3 yang kalah, lengkap dengan alasan singkat. Jika data tidak ada, tulis jelas bahwa ini asumsi umum, bukan data nyata. Maksimal 200 kata."
+    },
+    {
+      "id": "dion", "name": "Dion", "role": "Brainstormer", "room": "brainstorm",
+      "task": "Dari temuan Gilang, buat 5 ide konten Reels. Tiap ide: judul, hook kalimat pertama, dan alasan singkat. Maksimal 200 kata."
+    },
+    {
+      "id": "mila", "name": "Mila", "role": "Brainstormer", "room": "brainstorm",
+      "task": "Kritik ide Dion, buang yang lemah, pilih 3 terbaik dan perbaiki hook-nya. Urutkan dari paling kuat. Maksimal 150 kata."
+    },
+    {
+      "id": "ale", "name": "Ale", "role": "Penulis Naskah", "room": "kreatif",
+      "task": "Tulis naskah Reels 30 detik untuk ide nomor 1 dari Mila. Hook pendek, satu ide per adegan, tulis per adegan: visual dan teks/suara. Maksimal 200 kata."
+    },
+    {
+      "id": "zaki", "name": "Zaki", "role": "Manajer (The Brain)", "room": "brain",
+      "task": "Review naskah Ale. Baris pertama jawabanmu harus persis 'KEPUTUSAN: SETUJU' atau 'KEPUTUSAN: REVISI'. Setelah itu beri 2-3 alasan singkat."
+    },
+    {
+      "id": "bima", "name": "Bima", "role": "Media Sosial", "room": "sosmed",
+      "needs_approval_from": "zaki",
+      "task": "Siapkan antrean posting 3 hari: tiap hari tulis jam tayang, caption (maksimal 3 kalimat), dan 5 hashtag. Gunakan naskah yang disetujui. Maksimal 200 kata."
+    }
+  ]
+}
