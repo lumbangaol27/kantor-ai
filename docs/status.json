@@ -10,7 +10,7 @@
       "room": "konten",
       "state": "selesai",
       "last_task": "Baca data performa konten (jika ada). Cari 3 pola hook yang menang dan 3 yang kalah, lengk",
-      "output": "Karena data performa kosong, analisis ini menggunakan **asumsi umum terbaik**, bukan data nyata dari akun.\n\n**3 Pola Hook Menang (Asumsi):**\n1. **\"Jangan Buka Toko Sebelum Tahu Ini\"** – Efektif karena memicu rasa takut rugi (*loss aversion*) dan rasa penasaran pelaku UMKM.\n2. **\"Modal 50 Ribu, Bisa Jualan Apa?\"** – Menarik perhatian karena langsung menyasar masalah utama UMKM: keterbatasan modal dengan solusi konkret.\n3. **\"Kesalahan Fatal Pemula saat Jualan Online\"** – Relevan dan membuat penonton merasa relate untuk introspeksi bisnis mereka.\n\n**3 Pola Hook Kalah (Asumsi):**\n1. **\"Tips Mengembangkan Bisnis Kecil\"** – Terlalu generik, membosankan, dan tidak menawarkan nilai unik yang spesifik.\n2. **\"Definisi Marketing yang Baik Adalah...\"** – Terlalu teoritis dan kaku untuk format Reels yang butuh kecepatan eksekusi.\n3. **\"Halo Semuanya, Kembali Lagi Bersama Saya\"** – Membuang durasi 3 detik pertama dengan basa-basi yang membuat penonton *swipe* cepat. \n\n*Catatan: Segera masukkan data performa riil agar analisis bisa disesuaikan dengan audiens spesifik kita.*"
+      "output": "Karena data performa belum diisi, analisis ini menggunakan **asumsi umum** untuk niche edukasi bisnis kecil/UMKM di Instagram Reels (bahasa santai), bukan data nyata.\n\n**3 Pola Hook yang Menang (Asumsi):**\n1. **Penyebutan Modal Kecil:** *\"Modal 100 ribu bisa jualan ini?\"* (Alasan: Relevan dengan audiens UMKM yang sensitif modal.)\n2. **Membongkar Mitos/Kebiasaan Salah:** *\"Jangan bikin logo mahal sebelum tahu ini!\"* (Alasan: Memicu rasa penasaran dan rasa takut salah (*FOMO*).)\n3. **Studi Kasus Cepat:** *\"Gimana warung ini bisa habis 100 porsi sehari.\"* (Alasan: Menawarkan solusi praktis yang langsung bisa dibayangkan.)\n\n**3 Pola Hook yang Kalah (Asumsi):**\n1. **Teori Kaku:** *\"3 Teori Manajemen Keuangan untuk Bisnis.\"* (Alasan: Terlalu berat dan mirip materi kuliah, audiens cepat *swipe*.)\n2. **Promosi Terbuka:** *\"Jasa Pembuatan Konten Terbaik untuk UMKM.\"* (Alasan: Audiens langsung tahu ini iklan dan tidak bernilai edukasi.)\n3. **Pertanyaan Klise:** *\"Halo teman-teman bisnis, gimana kabarnya?\"* (Alasan: Tidak ada urgensi atau nilai tambah di 3 detik pertama.)\n\n*Catatan: Mohon masukkan data performa agar analisis bisa disesuaikan dengan performa konten asli.*"
     },
     {
       "id": "dion",
@@ -19,7 +19,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Dari temuan Gilang, buat 5 ide konten Reels. Tiap ide: judul, hook kalimat pertama, dan al",
-      "output": "Siap, ini 5 ide Reels berdasarkan analisis Gilang:\n\n1. **Jangan Buka Toko Sebelum Tahu Ini**\n   * **Hook:** \"Mau buka toko tapi modal pas-pasan? Stop, jangan lakukan ini kalau gak mau gulung tikar bulan depan!\"\n   * **Alasan:** Memicu *loss aversion* (takut rugi) dan rasa penasaran tinggi.\n\n2. **Modal 50 Ribu, Bisa Jualan Apa?**\n   * **Hook:** \"Cuma punya modal Rp50 ribu? Ini 3 ide jualan yang langsung laku hari ini juga!\"\n   * **Alasan:** Menyasar masalah utama UMKM (modal minim) dengan solusi konkret.\n\n3. **Kesalahan Fatal Pemula**\n   * **Hook:** \"Jualan online sepi terus? Bisa jadi kamu lakuin kesalahan fatal nomor dua ini.\"\n   * **Alasan:** Sangat *relatable* dan memaksa penonton bertahan sampai akhir untuk tahu kesalahannya.\n\n4. **Bongkar Biaya Produksi**\n   * **Hook:** \"Jualan es teh manis harga Rp5 jutaan? Ini rincian modal dan keuntungan bersihnya!\"\n   * **Alasan:** Transparansi angka membuat penonton penasaran dan membangun kredibilitas.\n\n5. **Evaluasi Bisnis Cepat**\n   * **Hook:** \"Coba cek toko kamu sekarang, ada gak barang yang mangkrak kayak gini?\"\n   * **Alasan:** Mengajak penonton langsung praktik dan mengevaluasi bisnis mereka detik itu juga."
+      "output": "Siap, ini 5 ide Reels berdasarkan temuan Gilang:\n\n1. **Ide 1: Modal Kecil**\n   * **Judul:** Jualan Unik Modal Tipis\n   * **Hook:** *\"Modal di bawah 50 ribu, tapi omzetnya bikin kaget!\"*\n   * **Alasan:** Menargetkan audiens UMKM yang sensitif modal dan mencari ide cepat.\n\n2. **Ide 2: Bongkar Mitos**\n   * **Judul:** Jebakan Biaya Branding\n   * **Hook:** *\"Stop buang duit buat kemasan mahal sebelum nonton ini!\"*\n   * **Alasan:** Memicu rasa penasaran dan menyelamatkan pemula dari kesalahan umum.\n\n3. **Ide 3: Studi Kasus**\n   * **Judul:** Strategi Warung Laris\n   * **Hook:** *\"Gimana cara warung pinggir jalan ini bisa antre tiap jam makan siang?\"*\n   * **Alasan:** Menawarkan praktik nyata yang bisa ditiru penonton.\n\n4. **Ide 4: Evaluasi Bisnis**\n   * **Judul:** Cek Kasir Warungmu\n   * **Hook:** *\"Kenapa jualan rame tapi dompet pemiliknya tetap tipis?\"*\n   * **Alasan:** Menyentuh langsung *pain point* klasik pelaku UMKM (arus kas bocor).\n\n5. **Ide 5: Tips Operasional**\n   * **Judul:** Efisiensi Waktu Jualan\n   * **Hook:** *\"Cara atur stok jualan tanpa pusing dan ribet catat manual.\"*\n   * **Alasan:** Solusi praktis untuk masalah harian operasional bisnis kecil."
     },
     {
       "id": "mila",
@@ -28,7 +28,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Kritik ide Dion, buang yang lemah, pilih 3 terbaik dan perbaiki hook-nya. Urutkan dari pal",
-      "output": "Siap, Mila ambil alih! Kritik untuk ide Dion: Ide 1, 2, dan 3 sudah kuat karena berbasis psikologi audiens UMKM. Ide 4 dan 5 terlalu biasa, kurang greget untuk Reels cepat. \n\nIni 3 ide terbaik yang sudah dipertajam:\n\n1. **\"Jangan Buka Toko Sebelum Tahu Ini\"**\n   * **Hook:** \"Mau buka toko? Stop, jangan sewa tempat dulu kalau belum hitung angka ini!\"\n   * **Alasan:** Langsung cegah keputusan fatal pelaku usaha.\n\n2. **\"Modal 50 Ribu, Bisa Jualan Apa?\"**\n   * **Hook:** \"Modal cuma Rp50 ribu, nekat jualan ini malah ludes dalam 2 jam. Ini rahasianya!\"\n   * **Alasan:** Mainkan rasa penasaran dengan format *storytelling* cepat.\n\n3. **\"Kesalahan Fatal Pemula\"**\n   * **Hook:** \"Jualan online dari pagi tapi boncos terus? Berarti kamu masih pakai cara kuno ini.\"\n   * **Alasan:** Sangat *relatable* dengan keresahan UMKM harian."
+      "output": "Siap, Mila ambil alih. \n\n**Kritik untuk Dion:** Ide 5 terlalu generik dan mirip tutorial software. Ide 1 & 4 paling kuat karena langsung sentuh *pain point* modal dan duit boncos.\n\nBerikut 3 ide terbaik yang sudah dipertajam:\n\n1. **Ide 4 (Evaluasi Bisnis):** \n   * *Hook:* \"Jualan rame tiap hari, tapi kok duit di dompet tipis? Ini bocornya!\"\n   * *Alasan:* Paling relevan dengan masalah klasik UMKM.\n2. **Ide 1 (Modal Kecil):** \n   * *Hook:* \"Modal cuma Rp50 ribu, tapi berani jualan di ruko? Nih buktinya.\"\n   * *Alasan:* Memicu rasa penasaran instan.\n3. **Ide 2 (Bongkar Mitos):** \n   * *Hook:* \"Stop cetak logo mahal! UMKM pemula cukup pakai cara ini.\"\n   * *Alasan:* Menyelamatkan budget pemula dari kesalahan fatal."
     },
     {
       "id": "ale",
@@ -37,7 +37,7 @@
       "room": "kreatif",
       "state": "selesai",
       "last_task": "Tulis naskah Reels 30 detik untuk ide nomor 1 dari Mila. Hook pendek, satu ide per adegan,",
-      "output": "**Naskah Instagram Reels (30 Detik)**\n**Ide:** Jangan Buka Toko Sebelum Tahu Ini\n\n**Adegan 1 (0-3 detik) - Hook**\n* **Visual:** Talenta (pakai apron) pasang muka panik sambil tahan tangan orang yang mau buka pintu ruko. Teks besar di layar: \"JANGAN SEWA TEMPAT DULU!\"\n* **Suara:** \"Mau buka toko? Stop, jangan sewa tempat dulu kalau belum hitung angka ini!\"\n\n**Adegan 2 (3-12 detik) - Masalah**\n* **Visual:** Talenta duduk pegang kalkulator, muka pusing. Teks: \"Biaya Tetap vs Omset Harian\".\n* **Suara:** \"Banyak UMKM bangkrut bukan karena produknya jelek, tapi nekat sewa ruko tanpa hitung *fixed cost*.\"\n\n**Adegan 3 (12-22 detik) - Solusi**\n* **Visual:** Talenta tunjuk papan tulis isi rumus sederhana: (Sewa + Operasional) : 30 hari = Target harian. Teks: \"Rumus Aman Sewa Tempat\".\n* **Suara:** \"Pastikan omset harianmu minimal bisa tutup biaya sewa dan operasional dalam sebulan pertama. Jangan biarkan modal habis buat bayar tembok!\"\n\n**Adegan 4 (22-30 detik) - Call to Action**\n* **Visual:** Talenta senyum pegang buku catatan. Teks: \"Simpan video ini sebelum rugi!\" / \"Follow untuk tips UMKM lainnya.\"\n* **Suara:** \"Share video ini ke temanmu yang mau buka usaha. Simpan videonya biar gak lupa!\""
+      "output": "Siap, Ale ambil alih. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila.\n\n**Judul:** Modal Kecil di Ruko\n**Durasi:** 30 Detik\n\n**Adegan 1 (0-3 detik) - Hook**\n* **Visual:** Pemilik UMKM berdiri di depan ruko kecil sambil memegang produk.\n* **Teks/Suara:** \"Modal cuma Rp50 ribu, tapi berani jualan di ruko? Nih buktinya.\"\n\n**Adegan 2 (3-12 detik) - Masalah & Solusi**\n* **Visual:** *Close up* produk yang dijual (misal: keripik kemasan sederhana), lalu potong ke layar kalkulator/pencatatan.\n* **Teks/Suara:** \"Banyak yang sangka sewa ruko itu mahal. Padahal kuncinya di produk titipan awal. Bikin stok secukupnya pakai bahan baku eceran.\"\n\n**Adegan 3 (12-22 detik) - Bukti/Praktik**\n* **Visual:** Suasana ruko ramai pembeli atau transaksi QRIS berhasil.\n* **Teks/Suara:** \"Untungnya diputar lagi buat bayar sewa cicil bulanan. Jadi modal awal gak harus jutaan.\"\n\n**Adegan 4 (22-30 detik) - CTA**\n* **Visual:** Talent menunjuk ke arah teks di layar, senyum ke kamera.\n* **Teks/Suara:** \"Mau dibongkar rincian modalnya? Komentar 'MAU' di bawah ya!\"\n\n*(Total Kata: 78 kata)*"
     },
     {
       "id": "zaki",
@@ -46,7 +46,7 @@
       "room": "brain",
       "state": "selesai",
       "last_task": "Review naskah Ale. Baris pertama jawabanmu harus persis 'KEPUTUSAN: SETUJU' atau 'KEPUTUSA",
-      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. **Struktur pas:** Durasi 30 detik terbagi rapi (hook kuat di 3 detik pertama, masalah relavan, solusi konkret, dan CTA jelas).\n2. **Visual & Audio sinkron:** Instruksi visual mudah dieksekusi untuk format Reels dan langsung menyasar pain point UMKM (takut boncos sewa ruko)."
+      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. **Hook Kuat:** Kalimat \"Modal cuma Rp50 ribu...\" langsung memicu rasa penasaran dan relevan dengan target audiens UMKM.\n2. **Struktur Padat:** Durasi 30 detik terbagi rapi dari masalah, solusi, hingga CTA yang jelas (\"Komentar 'MAU'\").\n3. **Bahasa Sesuai:** Menggunakan bahasa Indonesia yang santai, membumi, dan mudah dicerna pelaku usaha kecil."
     },
     {
       "id": "rara",
@@ -55,7 +55,7 @@
       "room": "video",
       "state": "selesai",
       "last_task": "Ubah naskah Ale menjadi 4 sampai 6 adegan video. Jawab HANYA dengan JSON array tanpa teks ",
-      "output": "Video 5 adegan, dengan suara.\n\n1. JANGAN SEWA TEMPAT DULU!\n2. Biaya Tetap vs Omset Harian\n3. Rumus Aman Sewa Tempat\n4. Jangan biarkan modal habis!\n5. Simpan & Follow untuk tips lainnya!",
+      "output": "Video 5 adegan, dengan suara.\n\n1. Modal 50 ribu jualan di ruko?\n2. Banyak yang sangka sewa ruko mahal\n3. Bikin stok secukupnya bahan eceran\n4. Untung diputar buat bayar sewa\n5. Simpan video ini biar gak lupa!",
       "file": "video/terbaru.mp4"
     },
     {
@@ -65,45 +65,45 @@
       "room": "sosmed",
       "state": "selesai",
       "last_task": "Siapkan antrean posting 3 hari: tiap hari tulis jam tayang, caption (maksimal 3 kalimat), ",
-      "output": "Berikut antrean posting Reels selama 3 hari berdasarkan naskah yang disetujui:\n\n**Hari 1**\n* **Jam Tayang:** 18.30 WIB (Jam prime time)\n* **Caption:** Mau sewa ruko buat jualan tapi takut boncos? Eits, hitung dulu angka krusial ini sebelum menyesal. Simpan videonya dan praktikkan sekarang!\n* **Hashtag:** #TipsUMKM #BisnisPemula #ModalUsaha #KelolaKeuangan #BelajarBisnis\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Jam istirahat siang)\n* **Caption:** Banyak yang nekat buka toko fisik tanpa tahu rumus dasar *fixed cost*. Jangan sampai modal habis hanya buat bayar sewa tembok! \n* **Hashtag:** #UMKMPemula #StrategiBisnis #BisnisKuliner #TipsBisnisOnline #GagalBisnis\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB (Waktu santai malam)\n* **Caption:** Tag teman kamu yang mau buka usaha baru supaya tidak salah langkah. Follow akun ini untuk tips bisnis anti rugi setiap hari!\n* **Hashtag:** #PengusahaMuda #BisnisLokal #RintisUsaha #TipsJualan #UMKMIndonesia"
+      "output": "Siap, ini antrean posting Reels selama 3 hari berdasarkan naskah yang disetujui:\n\n**Hari 1**\n* **Jam Tayang:** 18.30 WIB (Jam santai setelah jam kerja).\n* **Caption:** Modal tipis bukan halangan buat mulai usaha. Trik cerdas ini bikin kamu berani buka lapak tanpa takut boncos. Simpan videonya buat ditonton lagi nanti ya!\n* **Hashtag:** #TipsBisnis #ModalKecil #UMKMIndonesia #IdeUsaha #BisnisPemula\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Waktu istirahat makan siang).\n* **Caption:** Siapa bilang sewa ruko harus langsung bayar setahun? Pelaku UMKM wajib tahu trik putar modal ini. Yuk, mulai langkah pertamamu hari ini!\n* **Hashtag:** #UsahaRintisan #BelajarBisnis #KulinerLokal #TipsUMKM #BisnisAnakMuda\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB (Prime time malam hari).\n* **Caption:** Jangan biarkan modal terbatas menghentikan mimpimu jualan. Komentar \"MAU\" di video utama kalau kamu mau dibongkarin rincian modal lengkapnya!\n* **Hashtag:** #PengusahaMuda #StrategiBisnis #UMKMBerkelas #KembangkanBisnis #InspirasiUsaha"
     }
   ],
   "log": [
     {
-      "t": "09:54",
+      "t": "10:20",
       "agent": "gilang",
-      "text": "Karena data performa kosong, analisis ini menggunakan **asumsi umum terbaik**, bukan data nyata dari akun."
+      "text": "Karena data performa belum diisi, analisis ini menggunakan **asumsi umum** untuk niche edukasi bisnis kecil/UMKM di Instagram Reels (bahasa "
     },
     {
-      "t": "09:55",
+      "t": "10:22",
       "agent": "dion",
-      "text": "Siap, ini 5 ide Reels berdasarkan analisis Gilang:"
+      "text": "Siap, ini 5 ide Reels berdasarkan temuan Gilang:"
     },
     {
-      "t": "09:57",
+      "t": "10:23",
       "agent": "mila",
-      "text": "Siap, Mila ambil alih! Kritik untuk ide Dion: Ide 1, 2, dan 3 sudah kuat karena berbasis psikologi audiens UMKM. Ide 4 dan 5 terlalu biasa, "
+      "text": "Siap, Mila ambil alih. "
     },
     {
-      "t": "09:58",
+      "t": "10:25",
       "agent": "ale",
-      "text": "**Naskah Instagram Reels (30 Detik)**"
+      "text": "Siap, Ale ambil alih. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila."
     },
     {
-      "t": "10:00",
+      "t": "10:26",
       "agent": "zaki",
       "text": "KEPUTUSAN: SETUJU"
     },
     {
-      "t": "10:01",
+      "t": "10:28",
       "agent": "rara",
       "text": "["
     },
     {
-      "t": "10:03",
+      "t": "10:29",
       "agent": "bima",
-      "text": "Berikut antrean posting Reels selama 3 hari berdasarkan naskah yang disetujui:"
+      "text": "Siap, ini antrean posting Reels selama 3 hari berdasarkan naskah yang disetujui:"
     }
   ],
-  "updated": "2026-11-04T10:03:05+07:00"
+  "updated": "2026-11-04T10:29:58+07:00"
 }
