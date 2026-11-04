@@ -11,7 +11,7 @@ ROOT = pathlib.Path(__file__).parent
 CFG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 DEMO = "--demo" in sys.argv
 KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 WIB = timezone(timedelta(hours=7))
 OUT = ROOT / "docs" / "status.json"
 
@@ -32,7 +32,22 @@ def now():
     return datetime.now(WIB)
 
 
+def pick_model():
+    """Model lama bisa dihentikan Google: cari model flash terbaru yang tersedia untuk key ini."""
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                                 headers={"x-goog-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        ms = json.load(r).get("models", [])
+    ok = [m["name"].split("/")[-1] for m in ms
+          if "generateContent" in m.get("supportedGenerationMethods", [])
+          and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "live", "preview", "exp", "thinking"))]
+    if not ok:
+        raise RuntimeError("Tidak ada model flash yang tersedia untuk API key ini")
+    return sorted(ok, reverse=True)[0]
+
+
 def ask(system, user, retries=4):
+    global MODEL
     if DEMO:
         time.sleep(0.2)
         return None
@@ -49,6 +64,11 @@ def ask(system, user, retries=4):
                 d = json.load(r)
             return d["candidates"][0]["content"]["parts"][0]["text"].strip()
         except urllib.error.HTTPError as e:
+            if e.code == 404 and n < retries - 1:
+                MODEL = pick_model()
+                print("Model diganti otomatis:", MODEL)
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+                continue
             if e.code in (429, 500, 503) and n < retries - 1:
                 time.sleep(20 * (n + 1))
                 continue
