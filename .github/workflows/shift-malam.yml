@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pasang suara gratis
+        run: pip install edge-tts
       - name: Jalankan agen
         run: python run_agents.py
         env:

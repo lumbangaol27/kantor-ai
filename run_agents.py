@@ -4,7 +4,7 @@
 Pakai:  GEMINI_API_KEY=... python run_agents.py
 Uji tanpa API:  python run_agents.py --demo
 """
-import json, os, sys, time, pathlib, urllib.request, urllib.error
+import json, os, re, sys, time, pathlib, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
 
 ROOT = pathlib.Path(__file__).parent
@@ -23,6 +23,7 @@ DEMO_TEXT = {
     "mila": "(contoh) Terpilih: 1) 3 kesalahan harga jual yang bikin rugi. 2) Cek untung rugi 1 menit. 3) Modal 500 ribu jadi apa?",
     "ale": "(contoh) Adegan 1: teks '3 kesalahan harga jual'. Adegan 2: kesalahan pertama. Adegan 3: kesalahan kedua. Adegan 4: ajakan simpan.",
     "zaki": "KEPUTUSAN: SETUJU\n(contoh) Hook jelas, satu ide per adegan, durasi pas.",
+    "rara": '[{"teks": "3 kesalahan harga jual", "narasi": "Tiga kesalahan harga jual."}]',
     "bima": "(contoh) Hari 1 19.30 caption + 5 hashtag. Hari 2 12.00. Hari 3 19.30.",
 }
 
@@ -117,6 +118,17 @@ def save(state):
     OUT.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def build_video(text):
+    """Ambil JSON adegan dari jawaban agen, buat mp4 di docs/video/terbaru.mp4."""
+    import make_video
+    m = re.search(r"\[.*\]", text, re.S)
+    scenes = json.loads(m.group(0)) if m else []
+    out = ROOT / "docs" / "video" / "terbaru.mp4"
+    n, voiced = make_video.make(scenes, out)
+    cat = "dengan suara" if voiced == n else ("sebagian tanpa suara" if voiced else "tanpa suara (suara gagal dibuat)")
+    return f"Video {n} adegan, {cat}.\n\n" + "\n".join(f"{i + 1}. {x.get('teks', '')}" for i, x in enumerate(scenes)), "video/terbaru.mp4"
+
+
 def main():
     if not DEMO and not KEY:
         sys.exit("GEMINI_API_KEY belum diisi. Untuk uji tanpa API: python run_agents.py --demo")
@@ -149,6 +161,14 @@ def main():
             save(state)
             sys.exit(1)
         a["state"], a["output"] = "selesai", text
+        if cfg.get("video") and not DEMO:
+            try:
+                a["output"], a["file"] = build_video(text)
+            except Exception as e:  # video gagal tidak menghentikan agen lain
+                a["state"], a["output"] = "error", f"Video gagal dibuat: {e}\n\nJawaban agen:\n{text[:800]}"
+                state["log"].append({"t": now().strftime("%H:%M"), "agent": a["id"], "text": f"Video gagal: {e}"[:140]})
+                save(state)
+                continue
         if a["id"] == "zaki":
             approved["zaki"] = text.upper().lstrip().startswith("KEPUTUSAN: SETUJU")
         state["log"].append({"t": now().strftime("%H:%M"), "agent": a["id"], "text": text.splitlines()[0][:140]})

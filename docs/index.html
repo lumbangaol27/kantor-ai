@@ -76,7 +76,7 @@ const ROOMS=[
  {id:'kreatif',name:'KREATIF',c:'#d479b0',i:2,j:0},
  {id:'brain',name:'THE BRAIN',c:'#3fb6cf',i:0,j:1},
  {id:'sosmed',name:'SOSMED',c:'#e0707f',i:1,j:1},
- {id:'mess',name:'MESS',c:'#6fbf73',i:2,j:1}
+ {id:'video',name:'VIDEO',c:'#e29a4a',i:2,j:1}
 ];
 const SKIN=['#e8b894','#c98f68','#f0c8a4','#a8734f'];
 const STATE_COLOR={kerja:'#4ade80',menunggu:'#fbbf24',selesai:'#38bdf8',error:'#f87171'};
@@ -86,6 +86,7 @@ const FALLBACK={demo:true,shift:'19.00-07.00 WIB',updated:null,log:[],agents:[
  {id:'mila',name:'Mila',role:'Brainstormer',room:'brainstorm',state:'menunggu',last_task:'',output:''},
  {id:'ale',name:'Ale',role:'Penulis Naskah',room:'kreatif',state:'menunggu',last_task:'',output:''},
  {id:'zaki',name:'Zaki',role:'Manajer (The Brain)',room:'brain',state:'menunggu',last_task:'',output:''},
+ {id:'rara',name:'Rara',role:'Editor Video',room:'video',state:'menunggu',last_task:'',output:''},
  {id:'bima',name:'Bima',role:'Media Sosial',room:'sosmed',state:'menunggu',last_task:'',output:''}]};
 
 let data=FALLBACK, selected=null, hits=[], W=0, H=0, hw=20, ox=0, oy=0;
@@ -171,7 +172,6 @@ function draw(t=0){
       g.addColorStop(0,'rgba(255,255,255,.95)');g.addColorStop(.25,'rgba(120,230,255,.6)');g.addColorStop(1,'rgba(63,182,207,0)');
       ctx.fillStyle=g;ctx.beginPath();ctx.arc(o[0],o[1],k*2.2,0,7);ctx.fill();
     }
-    if(r.id==='mess'){box(rx+.5,ry+1.9,1.7,.6,.35,.18,cols('#b86a4a'));box(rx+.5,ry+1.7,1.7,.22,.55,.18,cols('#b86a4a',.9))}
     const mine=data.agents.filter(a=>a.room===r.id), sl=slots(mine.length);
     mine.forEach((a,k)=>{const [sx,sy]=sl[k]||[1.5,1.15];const res=drawAgent(a,rx+sx,ry+sy,t);tags.push({a,...res})});
   });
@@ -203,6 +203,7 @@ function renderDetail(){
    `<h2>${esc(a.name)}</h2><span class="role">${esc(a.role)} · shift ${esc(data.shift||'')}</span>
     <span class="pill s-${a.state}">${esc(a.state)}</span>
     <div class="task">${esc(a.last_task)}</div>
+    ${a.file?`<video controls playsinline preload="metadata" src="${esc(a.file)}?v=${encodeURIComponent(data.updated||'')}" style="width:100%;max-width:300px;border-radius:10px;align-self:center"></video>`:''}
     ${a.output?`<pre>${esc(a.output)}</pre>`:''}`:
    `<h2>Pilih karyawan</h2><span class="role">Ketuk karyawan di denah atau namanya di daftar untuk melihat hasil kerjanya semalam.</span>`;
 }

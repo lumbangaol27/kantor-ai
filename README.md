@@ -1,7 +1,7 @@
 # Kantor AI (Agent HQ) gratis
 
 Tim agen AI yang kerja otomatis tiap malam, dengan denah kantor yang bisa dibuka di HP.
-Alur shift: Gilang (analisis) -> Dion & Mila (ide) -> Ale (naskah) -> Zaki (review) -> Bima (antrean posting).
+Alur shift: Gilang (analisis) -> Dion & Mila (ide) -> Ale (naskah) -> Zaki (review) -> Rara (editor video) -> Bima (antrean posting).
 
 Semua gratis: Gemini API (paket gratis), GitHub Actions, GitHub Pages.
 
@@ -24,8 +24,12 @@ Semua gratis: Gemini API (paket gratis), GitHub Actions, GitHub Pages.
 
 `python run_agents.py --demo` mengisi status contoh (dashboard menampilkan lencana "Data contoh").
 
+## Video otomatis
+
+Setelah Zaki setuju, Rara mengubah naskah Ale menjadi video vertikal 720x1280 (slide teks, suara Indonesia gratis lewat edge-tts, disusun ffmpeg). Hasilnya `docs/video/terbaru.mp4`, tampil dan bisa diputar di dashboard (ketuk Rara). Satu video per shift, ditimpa video berikutnya, jadi unduh dulu kalau mau disimpan. Jika suara gagal dibuat, video tetap jadi tanpa suara dan dashboard menyebutnya.
+
 ## Batasan
 
-- Agen hanya menulis teks (analisis, ide, naskah, caption). Tidak mengedit video dan tidak memposting sendiri; antrean dari Bima kamu posting manual atau sambungkan ke alat lain.
+- Video hanya slide teks bersuara, tanpa rekaman atau animasi. Agen tidak memposting sendiri; antrean dari Bima kamu posting manual atau sambungkan ke alat lain.
 - Batas kecepatan paket gratis Gemini bisa berubah; skrip sudah memberi jeda dan mencoba ulang saat kena limit.
 - Jadwal GitHub Actions bisa telat beberapa menit.
