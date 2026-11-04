@@ -16,8 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Pasang suara gratis
-        run: pip install edge-tts pillow
+      - name: Pasang ffmpeg, font, dan suara gratis
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install edge-tts pillow
       - name: Jalankan agen
         run: python run_agents.py
         env:
