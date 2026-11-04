@@ -11,7 +11,6 @@ ROOT = pathlib.Path(__file__).parent
 CFG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 DEMO = "--demo" in sys.argv
 KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 WIB = timezone(timedelta(hours=7))
 OUT = ROOT / "docs" / "status.json"
 
@@ -32,55 +31,84 @@ def now():
     return datetime.now(WIB)
 
 
-def pick_model():
-    """Model lama bisa dihentikan Google: cari model flash terbaru yang tersedia untuk key ini."""
-    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
-                                 headers={"x-goog-api-key": KEY})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        ms = json.load(r).get("models", [])
-    ok = [m["name"].split("/")[-1] for m in ms
-          if "generateContent" in m.get("supportedGenerationMethods", [])
-          and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "live", "preview", "exp", "thinking"))]
-    if not ok:
-        raise RuntimeError("Tidak ada model flash yang tersedia untuk API key ini")
-    return sorted(ok, reverse=True)[0]
+_CANDS = None
 
 
-def ask(system, user, retries=4):
-    global MODEL
+def candidates():
+    """Daftar model untuk dicoba berurutan. Model lama sering dihentikan atau lambat, jadi tidak ditulis mati."""
+    global _CANDS
+    if _CANDS is not None:
+        return _CANDS
+    names = []
+    try:
+        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                                     headers={"x-goog-api-key": KEY})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            ms = json.load(r).get("models", [])
+        names = [m["name"].split("/")[-1] for m in ms if "generateContent" in m.get("supportedGenerationMethods", [])]
+        print("Model tersedia:", ", ".join(names))
+    except Exception as e:
+        print("Gagal membaca daftar model:", e)
+    text = [n for n in names if not any(x in n for x in ("image", "tts", "live", "audio", "embedding", "robotics", "computer"))]
+    flash = sorted([n for n in text if "flash" in n and "lite" not in n and "preview" not in n and "exp" not in n], reverse=True)
+    lite = sorted([n for n in text if "flash" in n and "lite" in n and "preview" not in n and "exp" not in n], reverse=True)
+    order = [os.environ.get("GEMINI_MODEL", ""), "gemini-flash-latest", "gemini-flash-lite-latest"] + lite + flash
+    _CANDS = []
+    for n in order:
+        if n and n not in _CANDS and (not names or n in names):
+            _CANDS.append(n)
+    if not _CANDS:
+        raise RuntimeError("Tidak ada model yang tersedia untuk API key ini")
+    print("Urutan model dicoba:", ", ".join(_CANDS))
+    return _CANDS
+
+
+def call(model, system, user, thinking_off):
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    gen = {"maxOutputTokens": 2048, "temperature": 0.7}
+    if thinking_off:
+        gen["thinkingConfig"] = {"thinkingBudget": 0}
+    body = json.dumps({"systemInstruction": {"parts": [{"text": system}]},
+                       "contents": [{"role": "user", "parts": [{"text": user}]}],
+                       "generationConfig": gen}).encode()
+    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=75) as r:
+        d = json.load(r)
+    return "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"]).strip()
+
+
+def ask(system, user):
     if DEMO:
         time.sleep(0.2)
         return None
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    body = json.dumps({
-        "systemInstruction": {"parts": [{"text": system}]},
-        "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"maxOutputTokens": 2048, "temperature": 0.7},
-    }).encode()
-    for n in range(retries):
-        req = urllib.request.Request(url, data=body, headers={
-            "Content-Type": "application/json", "x-goog-api-key": KEY})
-        try:
-            with urllib.request.urlopen(req, timeout=240) as r:
-                d = json.load(r)
-            print(f"OK model={MODEL}")
-            return "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"]).strip()
-        except urllib.error.HTTPError as e:
-            if e.code == 404 and n < retries - 1:
-                MODEL = pick_model()
-                print("Model diganti otomatis:", MODEL)
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-                continue
-            if e.code in (429, 500, 503) and n < retries - 1:
-                time.sleep(20 * (n + 1))
-                continue
-            raise RuntimeError(f"HTTP {e.code} dari Gemini: {e.read()[:200]!r}")
-        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
-            if n < retries - 1:
-                print(f"Percobaan {n + 1} gagal ({e}), mengulang...")
-                time.sleep(10)
-                continue
-            raise RuntimeError(f"Gemini tidak merespons (model {MODEL}): {e}")
+    errors = []
+    for model in list(candidates())[:4]:
+        thinking_off = True
+        for n in range(3):
+            t0 = time.time()
+            try:
+                text = call(model, system, user, thinking_off)
+                if text:
+                    print(f"OK model={model} {time.time() - t0:.0f}s")
+                    return text
+                errors.append(f"{model}: jawaban kosong")
+                break
+            except urllib.error.HTTPError as e:
+                msg = e.read()[:300].decode("utf-8", "replace")
+                print(f"{model}: HTTP {e.code} {msg[:160]!r}")
+                if e.code == 400 and thinking_off:
+                    thinking_off = False
+                    continue
+                if e.code == 429 and n < 2:
+                    time.sleep(25 * (n + 1))
+                    continue
+                errors.append(f"{model}: HTTP {e.code} {msg[:120]}")
+                break
+            except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+                print(f"{model}: {e} ({time.time() - t0:.0f}s)")
+                errors.append(f"{model}: {e}")
+                break
+    raise RuntimeError("Semua model gagal. " + " | ".join(errors)[:500])
 
 
 def save(state):
