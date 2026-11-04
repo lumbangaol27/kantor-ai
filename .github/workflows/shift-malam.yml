@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Pasang suara gratis
-        run: pip install edge-tts
+        run: pip install edge-tts pillow
       - name: Jalankan agen
         run: python run_agents.py
         env:
