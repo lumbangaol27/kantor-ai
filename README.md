@@ -26,10 +26,10 @@ Semua gratis: Gemini API (paket gratis), GitHub Actions, GitHub Pages.
 
 ## Video otomatis
 
-Setelah Zaki setuju, Rara mengubah naskah Ale menjadi video vertikal 720x1280 (slide teks, suara Indonesia gratis lewat edge-tts, disusun ffmpeg). Hasilnya `docs/video/terbaru.mp4`, tampil dan bisa diputar di dashboard (ketuk Rara). Satu video per shift, ditimpa video berikutnya, jadi unduh dulu kalau mau disimpan. Jika suara gagal dibuat, video tetap jadi tanpa suara dan dashboard menyebutnya.
+Setelah Zaki setuju, Rara mengubah naskah Ale menjadi video kartun vertikal 720x1280: maskot "Bubu" bicara dengan mulut mengikuti suara (suara Indonesia gratis lewat edge-tts), berkedip dan melambai, benda (uang, toko, ponsel, bohlam) muncul memantul, dan teks tersorot kata per kata. Semua digambar lewat kode (`make_video.py`, Pillow + numpy) dan disusun ffmpeg. Hasilnya `docs/video/terbaru.mp4`, bisa diputar di dashboard (ketuk Rara). Satu video per shift, ditimpa video berikutnya, jadi unduh dulu kalau mau disimpan. Jika suara gagal dibuat, video tetap jadi (mulut tetap bergerak) tanpa suara, dan dashboard menyebutnya.
 
 ## Batasan
 
-- Video hanya slide teks bersuara, tanpa rekaman atau animasi. Agen tidak memposting sendiri; antrean dari Bima kamu posting manual atau sambungkan ke alat lain.
+- Animasi sederhana ala kartun explainer (satu maskot), bukan animasi studio. Agen tidak memposting sendiri; antrean dari Bima kamu posting manual atau sambungkan ke alat lain.
 - Batas kecepatan paket gratis Gemini bisa berubah; skrip sudah memberi jeda dan mencoba ulang saat kena limit.
 - Jadwal GitHub Actions bisa telat beberapa menit.
