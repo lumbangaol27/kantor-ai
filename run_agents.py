@@ -55,14 +55,16 @@ def ask(system, user, retries=4):
     body = json.dumps({
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
+        "generationConfig": {"maxOutputTokens": 2048, "temperature": 0.7},
     }).encode()
     for n in range(retries):
         req = urllib.request.Request(url, data=body, headers={
             "Content-Type": "application/json", "x-goog-api-key": KEY})
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=240) as r:
                 d = json.load(r)
-            return d["candidates"][0]["content"]["parts"][0]["text"].strip()
+            print(f"OK model={MODEL}")
+            return "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"]).strip()
         except urllib.error.HTTPError as e:
             if e.code == 404 and n < retries - 1:
                 MODEL = pick_model()
@@ -73,6 +75,12 @@ def ask(system, user, retries=4):
                 time.sleep(20 * (n + 1))
                 continue
             raise RuntimeError(f"HTTP {e.code} dari Gemini: {e.read()[:200]!r}")
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+            if n < retries - 1:
+                print(f"Percobaan {n + 1} gagal ({e}), mengulang...")
+                time.sleep(10)
+                continue
+            raise RuntimeError(f"Gemini tidak merespons (model {MODEL}): {e}")
 
 
 def save(state):
