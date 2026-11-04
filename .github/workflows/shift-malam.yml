@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: shift-malam
+  cancel-in-progress: false
 jobs:
   shift:
     runs-on: ubuntu-latest
@@ -26,4 +29,5 @@ jobs:
           git config user.email "kantor-ai@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || git commit -m "Shift malam $(date -u +%F)"
-          git push
+          git pull --rebase -X theirs origin main || git rebase --abort
+          git push || (sleep 5 && git pull --rebase -X theirs origin main && git push)
