@@ -10,7 +10,7 @@
       "room": "konten",
       "state": "selesai",
       "last_task": "Baca data performa konten (jika ada). Cari 3 pola hook yang menang dan 3 yang kalah, lengk",
-      "output": "Data performa kosong. Analisis ini menggunakan asumsi umum untuk niche edukasi UMKM di Instagram Reels, bukan data nyata.\n\n**3 Pola Hook yang Menang (Asumsi):**\n1. **\"Jangan Buka Toko Sebelum Tahu Ini\"** – Memancing *FOMO* (takut rugi) pelaku UMKM.\n2. **\"Modal 50 Ribu, Bisa Jualan Apa?\"** – Solusi konkret untuk bisnis skala kecil.\n3. **\"Kesalahan Fatal Pemula saat Promosi\"** – Rasa penasaran tinggi karena membahas kegagalan.\n\n*Alasan:* Langsung menyentuh *pain point* (masalah utama) UMKM seperti modal minim dan rasa takut salah langkah di awal bisnis.\n\n**3 Pola Hook yang Kalah (Asumsi):**\n1. **\"Tips Bisnis Hari Ini\"** – Terlalu umum dan membosankan.\n2. **\"Pentingnya Laporan Keuangan\"** – Topik penting tapi bahasanya kaku, terkesan menggurui.\n3. **\"Cara Saya Sukses Jualan Online\"** – Cenderung narsis dan kurang relevan untuk audiens pemula.\n\n*Alasan:* Terlalu teoritis, kurang *actionable*, dan tidak memberikan nilai urgensi bagi penonton.\n\n*(Catatan: Silakan masukkan data performa riil agar saya bisa menganalisis data yang sebenarnya).*"
+      "output": "Karena data performa kosong, analisis ini menggunakan **asumsi umum** berdasarkan tren Instagram Reels edukasi bisnis kecil/UMKM, bukan dari data nyata.\n\n**3 Pola Hook yang Menang (Asumsi):**\n1. **\"Jangan buka [jenis usaha] sebelum tahu ini.\"** \n   * *Alasan:* Memicu *FOMO* (fear of missing out) dan rasa penasaran tinggi.\n2. **\"Cara omzet naik 2x lipat tanpa nambah modal.\"** \n   * *Alasan:* Menawarkan solusi konkret atas masalah terbesar UMKM (omzet dan modal).\n3. **\"Bongkar rahasia warung [X] yang selalu antre.\"** \n   * *Alasan:* Menggunakan studi kasus nyata yang relatable dengan audiens lokal.\n\n**3 Pola Hook yang Kalah (Asumsi):**\n1. **\"Halo teman-teman, hari ini kita bahas tentang...\"** \n   * *Alasan:* Terlalu lambat, membosankan, dan langsung diskip penonton di 3 detik pertama.\n2. **\"Tips manajemen keuangan bisnis part 5.\"** \n   * *Alasan:* Terlalu formal dan nomor bagian (part) membuat audiens merasa tertinggal jika belum nonton bagian 1.\n3. **\"Pentingnya digital marketing untuk bisnis.\"** \n   * *Alasan:* Terlalu klise, teoritis, dan tidak menjanjikan manfaat langsung.\n\n*Catatan: Tempel data performa Anda agar saya bisa menganalisis data riil.*"
     },
     {
       "id": "dion",
@@ -19,7 +19,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Dari temuan Gilang, buat 5 ide konten Reels. Tiap ide: judul, hook kalimat pertama, dan al",
-      "output": "Siap, ini 5 ide Reels edukasi UMKM berdasarkan analisis Gilang:\n\n1. **Jangan Buka Toko Sebelum Tahu Ini**\n   * **Hook:** \"Mau buka usaha tapi takut rugi di tengah jalan? Stop, tonton dulu video ini.\"\n   * **Alasan:** Memanfaatkan FOMO dan *pain point* takut rugi.\n\n2. **Modal 50 Ribu, Bisa Jualan Apa?**\n   * **Hook:** \"Cuma punya modal 50 ribu? Ini 3 ide jualan yang langsung balik modal hari ini.\"\n   * **Alasan:** Solusi konkret dan sangat *actionable* untuk skala ultra-kecil.\n\n3. **Kesalahan Fatal Pemula saat Promosi**\n   * **Hook:** \"Bikin konten tiap hari tapi jualan sepi? Jangan-jangan kamu lakuin kesalahan ini.\"\n   * **Alasan:** Memancing rasa penasaran lewat pembahasan kegagalan umum.\n\n4. **Rahasia Stok Cepat Ludes**\n   * **Hook:** \"Kenapa produk tetangga laris manis, padahal kualitas sama? Ini trik psikologinya.\"\n   * **Alasan:** Memicu rasa ingin tahu terhadap strategi kompetitor.\n\n5. **Aplikasi Gratis Pengganti Akuntan**\n   * **Hook:** \"Pusing hitung untung rugi manual? Pakai aplikasi gratis ini, laporan beres 5 menit.\"\n   * **Alasan:** Mengubah topik kaku (keuangan) menjadi solusi praktis dan efisien."
+      "output": "Siap, ini 5 ide Reels edukasi UMKM berdasarkan analisis Gilang:\n\n1. **Ide:** Jangan Buka Usaha Kuliner Ini\n   * **Hook:** \"Jangan buka usaha kuliner sebelum tahu jebakan yang bikin boncos ini.\"\n   * **Alasan:** Memicu *FOMO* dan rasa penasaran pelaku usaha baru.\n\n2. **Ide:** Omzet Naik Tanpa Modal Tambahan\n   * **Hook:** \"Cara omzet naik 2x lipat minggu ini tanpa keluar sepeser pun buat modal.\"\n   * **Alasan:** Solusi instan untuk masalah terbesar UMKM.\n\n3. **Ide:** Rahasia Bisnis Selalu Antre\n   * **Hook:** \"Gue bongkar rahasia kenapa warung Madura ini nggak pernah sepi pembeli.\"\n   * **Alasan:** Studi kasus bisnis lokal yang sangat *relatable*.\n\n4. **Ide:** Evaluasi Stok Barang Mati\n   * **Hook:** \"Stop buang uang untuk stok barang yang cuma mangkrak di gudang!\"\n   * **Alasan:** Langsung menohok masalah operasional nyata UMKM.\n\n5. **Ide:** Strategi Kasir Cerdas\n   * **Hook:** \"Pernah ngerasa uang kasir pas-pasan tapi barang di toko makin berkurang?\"\n   * **Alasan:** Mengangkat isu pencatatan keuangan dengan bahasa sehari-hari."
     },
     {
       "id": "mila",
@@ -28,66 +28,82 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Kritik ide Dion, buang yang lemah, pilih 3 terbaik dan perbaiki hook-nya. Urutkan dari pal",
-      "output": "Kritik untuk Dion: Ide 4 kurang spesifik untuk UMKM pemula. Ide 3 terlalu umum. \n\n3 Ide terbaik yang dipilih dan dipertajam:\n\n1. **Modal 50 Ribu, Bisa Jualan Apa?**\n   * **Hook Baru:** \"Modal cuma Rp50 ribu jangan dipakai beli paketan doang! Ini 3 ide jualan yang bisa langsung diputar hari ini.\"\n   * **Alasan:** Sangat *actionable* dan solutif untuk modal minim.\n\n2. **Jangan Buka Toko Sebelum Tahu Ini**\n   * **Hook Baru:** \"Mau sewa tempat buat jualan? Tunggu, tahan dulu uangmu kalau belum tahu 3 hal ini.\"\n   * **Alasan:** Paling kuat memicu *FOMO* dan mencegah kerugian besar.\n\n3. **Aplikasi Gratis Pengganti Akuntan**\n   * **Hook Baru:** \"Masih catat keuangan toko di buku tulis? Ketinggalan zaman! Ini aplikasi gratis yang bikin laporan beres 5 menit.\"\n   * **Alasan:** Mengubah topik kaku jadi solusi praktis bernilai tinggi."
+      "output": "Kritik untuk Dion: Ide 2 terlalu muluk (\"tanpa modal\"), Ide 3 terlalu spesifik ke satu brand (Warung Madura), Ide 5 agak bertele-tele.\n\nBerikut 3 ide terbaik yang sudah dipertajam:\n\n1. **Ide Stok Mati**\n   * **Hook:** \"Stop buang uang! Stok barang yang mangkrak di gudang itu sebenarnya bisa jadi cash.\"\n   * **Kenapa kuat:** Langsung menohok masalah operasional dan *cash flow* UMKM.\n\n2. **Ide Jebakan Usaha Kuliner**\n   * **Hook:** \"Jangan buka usaha kuliner sebelum tahu jebakan hitung HPP yang bikin boncos.\"\n   * **Kenapa kuat:** Memicu rasa takut salah (*FOMO*) dan langsung memberi solusi teknis.\n\n3. **Ide Kasir/Pencatatan**\n   * **Hook:** \"Uang kasir sering nggak pas? Hati-hati, bukan cuma tekor, tapi ada yang bocor.\"\n   * **Kenapa kuat:** Relatable dengan masalah harian pemilik toko kelontong/retail kecil."
     },
     {
       "id": "ale",
       "name": "Ale",
       "role": "Penulis Naskah",
       "room": "kreatif",
-      "state": "error",
+      "state": "selesai",
       "last_task": "Tulis naskah Reels 30 detik untuk ide nomor 1 dari Mila. Hook pendek, satu ide per adegan,",
-      "output": "Semua model gagal. gemini-flash-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u | gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u | gemini-3.5-flash-lite: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u | gemini-3.1-flash-lite: HTTP 503 {\n"
+      "output": "Berikut naskah Reels 30 detik untuk ide nomor 1 dari Mila (Stok Mati).\n\n**Judul:** Ubah Barang Mangkrak Jadi Kas\n**Durasi:** 30 Detik\n\n---\n\n**[00:00 - 00:05] Adegan 1**\n* **Visual:** Kreator pegang produk mangkrak/berdebu di gudang, muka serius, teks besar di layar.\n* **Teks/Suara:** \"Stop buang uang! Stok barang yang mangkrak di gudang itu sebenarnya bisa jadi *cash*.\"\n\n**[00:05 - 00:15] Adegan 2**\n* **Visual:** Potret tumpukan kardus/barang lama, transisi cepat ke kalkulator atau layar HP.\n* **Teks/Suara:** \"Jangan biarkan modal mati. Bikin promo *bundling* atau diskon modal untuk produk yang sudah 3 bulan nggak laku.\"\n\n**[00:15 - 00:25] Adegan 3**\n* **Visual:** Kreator tunjuk catatan penjualan masuk atau uang kas.\n* **Teks/Suara:** \"Emang untungnya tipis, tapi duitnya mutar lagi buat belanja stok baru yang lebih cepat cuan.\"\n\n**[00:25 - 00:30] Adegan 4**\n* **Visual:** Kreator senyum menghadap kamera, teks *Call to Action* (CTA).\n* **Teks/Suara:** \"Cek gudangmu sekarang. Pilih 3 barang tertua dan obral hari ini!\""
     },
     {
       "id": "zaki",
       "name": "Zaki",
       "role": "Manajer (The Brain)",
       "room": "brain",
-      "state": "menunggu",
-      "last_task": "Belum masuk shift",
-      "output": ""
+      "state": "selesai",
+      "last_task": "Review naskah Ale. Baris pertama jawabanmu harus persis 'KEPUTUSAN: SETUJU' atau 'KEPUTUSA",
+      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. Durasi 30 detik sangat pas untuk menjaga retensi penonton Instagram Reels.\n2. Hook dari Mila terbukti kuat dan langsung dieksekusi dengan visual yang *relatable* bagi UMKM.\n3. Solusi praktis (promo *bundling* dan putar kas) disampaikan dengan bahasa yang ringkas dan mudah dipahami."
     },
     {
       "id": "rara",
       "name": "Rara",
       "role": "Editor Video",
       "room": "video",
-      "state": "menunggu",
-      "last_task": "Belum masuk shift",
-      "output": ""
+      "state": "selesai",
+      "last_task": "Ubah naskah Ale menjadi 4 sampai 6 adegan video. Jawab HANYA dengan JSON array tanpa teks ",
+      "output": "Video 4 adegan, dengan suara.\n\n1. Stop buang uang! Stok mangkrak jadi cash.\n2. Jangan biarkan modal mati di gudang.\n3. Duit mutar buat belanja stok cuan.\n4. Cek gudangmu dan obral hari ini!",
+      "file": "video/terbaru.mp4"
     },
     {
       "id": "bima",
       "name": "Bima",
       "role": "Media Sosial",
       "room": "sosmed",
-      "state": "menunggu",
-      "last_task": "Belum masuk shift",
-      "output": ""
+      "state": "selesai",
+      "last_task": "Siapkan antrean posting 3 hari: tiap hari tulis jam tayang, caption (maksimal 3 kalimat), ",
+      "output": "**Hari 1**\n* **Jam Tayang:** 18.30 WIB\n* **Caption:** Punya stok barang yang lama nggak laku di gudang? Jangan biarkan modalmu mati di sana. Yuk, ubah jadi *cash* dengan cara *bundling* sekarang juga! \n* **Hashtag:** #TipsUMKM #BisnisPemula #KelolaStok #TipsBisnis #UMKMIndonesia\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Jam istirahat)\n* **Caption:** Barang mangkrak cuma bikin rugi tempat dan modal. Lebih baik untung tipis asal duitnya mutar lagi buat belanja stok baru. Cek gudangmu hari ini!\n* **Hashtag:** #ManajemenBisnis #BisnisKuliner #TokoKelontong #PengusahaMuda #StrategiBisnis\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB\n* **Caption:** Stop buang uang untuk barang yang nggak bergerak. Pilih 3 barang tertua di tokomu dan obral sekarang! Simpan videonya buat dipraktikin nanti.\n* **Hashtag:** #BelajarBisnis #ModalUsaha #TipsToko #BisnisOnline #UMKMNaikKelas"
     }
   ],
   "log": [
     {
-      "t": "21:53",
+      "t": "19:53",
       "agent": "gilang",
-      "text": "Data performa kosong. Analisis ini menggunakan asumsi umum untuk niche edukasi UMKM di Instagram Reels, bukan data nyata."
+      "text": "Karena data performa kosong, analisis ini menggunakan **asumsi umum** berdasarkan tren Instagram Reels edukasi bisnis kecil/UMKM, bukan dari"
     },
     {
-      "t": "21:54",
+      "t": "19:55",
       "agent": "dion",
       "text": "Siap, ini 5 ide Reels edukasi UMKM berdasarkan analisis Gilang:"
     },
     {
-      "t": "21:54",
+      "t": "19:56",
       "agent": "mila",
-      "text": "Kritik untuk Dion: Ide 4 kurang spesifik untuk UMKM pemula. Ide 3 terlalu umum. "
+      "text": "Kritik untuk Dion: Ide 2 terlalu muluk (\"tanpa modal\"), Ide 3 terlalu spesifik ke satu brand (Warung Madura), Ide 5 agak bertele-tele."
     },
     {
-      "t": "21:55",
+      "t": "19:56",
       "agent": "ale",
-      "text": "Gagal: Semua model gagal. gemini-flash-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing"
+      "text": "Berikut naskah Reels 30 detik untuk ide nomor 1 dari Mila (Stok Mati)."
+    },
+    {
+      "t": "19:58",
+      "agent": "zaki",
+      "text": "KEPUTUSAN: SETUJU"
+    },
+    {
+      "t": "19:59",
+      "agent": "rara",
+      "text": "["
+    },
+    {
+      "t": "19:59",
+      "agent": "bima",
+      "text": "**Hari 1**"
     }
   ],
-  "updated": "2026-11-16T21:55:09+07:00"
+  "updated": "2026-11-17T19:59:11+07:00"
 }
