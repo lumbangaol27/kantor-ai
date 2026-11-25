@@ -10,7 +10,7 @@
       "room": "konten",
       "state": "selesai",
       "last_task": "Baca data performa konten (jika ada). Cari 3 pola hook yang menang dan 3 yang kalah, lengk",
-      "output": "Karena tidak ada data performa yang dilampirkan, analisis ini menggunakan **asumsi umum industri**, bukan data nyata dari akun kita.\n\n**3 Pola Hook Menang (Asumsi Umum):**\n1. **Solusi Masalah Spesifik:** *\"Jualan sepi padahal modal tipis? Coba cara ini.\"* (Alasan: Relevan langsung dengan pain point UMKM).\n2. **Membongkar Mitos:** *\"Jangan pasang iklan Facebook Ads kalau belum tahu ini.\"* (Alasan: Memicu rasa penasaran dan rasa takut rugi/FOMO).\n3. **Hasil Cepat/Studi Kasus:** *\"Gimana warung ini bisa omzet 10 juta dalam seminggu.\"* (Alasan: Menawarkan bukti nyata yang ingin ditiru).\n\n**3 Pola Hook Kalah (Asumsi Umum):**\n1. **Terlalu Teoretis:** *\"Pengertian manajemen keuangan dasar bagi bisnis.\"* (Alasan: Membosankan, terlalu kaku untuk Instagram Reels).\n2. **Promosi Terang-terangan:** *\"Yuk beli e-book strategi bisnis kami sekarang.\"* (Alasan: Audiens langsung *skip* karena terdeteksi jualan).\n3. **Pertanyaan Klise:** *\"Halo teman-teman, gimana kabarnya hari ini?\"* (Alasan: Tidak ada nilai edukasi atau urgensi di detik pertama).\n\n*Catatan: Segera masukkan data performa riil agar analisis bisa disesuaikan dengan audiens kita.*"
+      "output": "Data performa kosong. Analisis ini menggunakan **asumsi umum**, bukan data nyata.\n\n**3 Pola Hook Menang:**\n1. **\"Cara [Target] dapat [Hasil] tanpa [Rugi]\"** \n   *Alasan:* Fokus pada solusi cepat dan menghilangkan ketakutan UMKM.\n2. **\"Kesalahan fatal UMKM: [X]\"**\n   *Alasan:* Memicu *FOMO* (takut salah) dan rasa penasaran tinggi.\n3. **\"Modal [Kecil], omzet [Besar] di 2024\"**\n   *Alasan:* Relevan dengan impian utama pebisnis pemula.\n\n**3 Pola Hook Kalah:**\n1. **\"Belajar Bisnis Bareng Gilang Eps. X\"**\n   *Alasan:* Terlalu formal, membosankan, dan tidak menawarkan nilai instan.\n2. **\"Tips Sukses Jualan Online\"**\n   *Alasan:* Terlalu klise, umum, dan kurang spesifik.\n3. **\"Pentingnya Laporan Keuangan bagi UMKM\"**\n   *Alasan:* Topik penting tapi bahasanya kaku; kurang menarik perhatian di Reels."
     },
     {
       "id": "dion",
@@ -19,7 +19,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Dari temuan Gilang, buat 5 ide konten Reels. Tiap ide: judul, hook kalimat pertama, dan al",
-      "output": "Siap, ini 5 ide Reels berdasarkan pola hook menang dari Gilang:\n\n1. **Judul:** Trik Atur Modal 1 Juta\n   * **Hook:** \"Jualan sepi padahal modal tipis? Coba bagi uang kas pakai trik amplop ini.\"\n   * **Alasan:** Solusi langsung pada *pain point* finansial UMKM pemula.\n\n2. **Judul:** Kesalahan Fatal Endorse Artis\n   * **Hook:** \"Jangan endorse selebgram dulu kalau tokomu belum lolos 3 syarat ini!\"\n   * **Alasan:** Membongkar mitos promosi, memicu rasa takut rugi (*FOMO*).\n\n3. **Judul:** Rahasia Laris Booth Minuman\n   * **Hook:** \"Gimana booth es teh ini bisa laku 300 cup sehari cuma modal spanduk unik?\"\n   * **Alasan:** Studi kasus nyata, bikin penasaran dan gampang ditiru.\n\n4. **Judul:** Stop Buang Duit di Iklan\n   * **Hook:** \"Jangan pasang iklan berbayar kalau bio Instagram kamu masih kayak kuburan.\"\n   * **Alasan:** Teguran santai, menghentikan *scrolling* audiens sebelum mereka boncos.\n\n5. **Judul:** Cara Balas Chat Bikin Beli\n   * **Hook:** \"Pelanggan sering kabur pas dikasih harga? Ganti kalimatmu pakai cara ini.\"\n   * **Alasan:** Masalah harian UMKM yang butuh solusi instan."
+      "output": "Siap, ini 5 ide Reels untuk UMKM berdasarkan temuan Gilang:\n\n1. **Ide 1 (Pola Menang: Kesalahan Fatal)**\n   * **Judul:** Kesalahan Fatal Bikin Toko Sepi\n   * **Hook:** \"Kesalahan fatal UMKM: Masih nyampur uang pribadi sama uang toko!\"\n   * **Alasan:** Memicu FOMO dan relevan banget sama masalah sehari-hari pebisnis.\n\n2. **Ide 2 (Pola Menang: Solusi Cepat)**\n   * **Judul:** Jualan Laris Tanpa Rugi Iklan\n   * **Hook:** \"Cara pemula dapat 100 pesanan pertama tanpa rugi biaya iklan.\"\n   * **Alasan:** Menawarkan solusi instan dan menghilangkan ketakutan buang-buang duit.\n\n3. **Ide 3 (Pola Menang: Modal Kecil)**\n   * **Judul:** Ide Jualan Modal Tipis\n   * **Hook:** \"Modal 50 ribu, omzet jutaan tiap minggu dari rumah.\"\n   * **Alasan:** Menarik perhatian pebisnis pemula dengan modal terbatas.\n\n4. **Ide 4 (Pola Menang: Kesalahan Fatal)**\n   * **Judul:** Kenapa Jualanmu Diejek Kemahalan\n   * **Hook:** \"Kesalahan fatal UMKM: Nentuin harga cuma pakai 'asal balik modal'.\"\n   * **Alasan:** Bikin penasaran karena membahas masalah penetapan harga yang sering salah.\n\n5. **Ide 5 (Pola Menang: Solusi Cepat)**\n   * **Judul:** Bikin Konten HP Doang\n   * **Hook:** \"Cara pemilik warung dapat pelanggan baru cuma pakai HP kentang.\"\n   * **Alasan:** Praktis, langsung sasaran, dan mematahkan mitos harus pakai alat mahal."
     },
     {
       "id": "mila",
@@ -28,7 +28,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Kritik ide Dion, buang yang lemah, pilih 3 terbaik dan perbaiki hook-nya. Urutkan dari pal",
-      "output": "Evaluasi ide Dion: Ide 1, 3, dan 5 langsung menyasar masalah operasional harian UMKM. Ide 2 dan 4 terlalu mirip (sama-sama bahas iklan/promosi berbayar) dan kurang aplikatif untuk UMKM mikro.\n\n3 Terbaik & Perbaikan Hook:\n\n1. **Pelanggan Kabur Saat Tanya Harga**\n   * **Hook:** \"Sering dicatin 'Berapa?' tapi ilang? Ganti balasan chatmu pakai kalimat ini.\"\n   * **Kenapa:** Solusi paling instan untuk masalah penutup penjualan harian.\n\n2. **Atur Modal 1 Juta**\n   * **Hook:** \"Modal pas-pasan tapi mau jualan? Jangan diborong semua, pakai trik amplop ini.\"\n   * **Kenapa:** Relevan langsung dengan *pain point* finansial UMKM pemula.\n\n3. **Rahasia Booth Laris**\n   * **Hook:** \"Gimana booth kecil ini bisa tembus 300 cup sehari cuma modal spanduk provokatif?\"\n   * **Kenapa:** Studi kasus nyata yang memicu rasa penasaran tinggi."
+      "output": "Kritik: Ide Dion bagus, tapi Ide 3 klise dan berbau *clickbait* bodong (berisiko hilang trust). Ide 5 tumpang tindih dengan Ide 2, angle \"HP kentang\" kurang tajam ke esensi bisnis. \n\n3 Ide Terbaik & Perbaikan Hook (Urut dari terkuat):\n\n1. **Ide 1 (Keuangan/Pemisahan Uang)**  \n   *Revisi Hook:* \"Pantesan omzet puluhan juta tapi dompet boncos, ternyata uang kas masih campur uang jajan!\"  \n   *Alasan:* Lebih visual, nampol, dan realita pahit UMKM.\n\n2. **Ide 4 (Penetapan Harga/Margin)**  \n   *Revisi Hook:* \"Jualan laris tapi nggak ada untungnya? Jangan-jangan kamu nentuin harga cuma pakai rumus 'kira-kira'.\"  \n   *Alasan:* Masalah nomor satu UMKM: capek doang, margin nihil.\n\n3. **Ide 2 (Dapat Order Tanpa Iklan)**  \n   *Revisi Hook:* \"Mau 100 orderan pertama tanpa bakar duit iklan? Lakuin trik WhatsApp ini.\"  \n   *Alasan:* Langsung spesifik ke *action* nyata, bukan janji manis kosong."
     },
     {
       "id": "ale",
@@ -37,7 +37,7 @@
       "room": "kreatif",
       "state": "selesai",
       "last_task": "Tulis naskah Reels 30 detik untuk ide nomor 1 dari Mila. Hook pendek, satu ide per adegan,",
-      "output": "Siap. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila.\n\n**Judul:** Pelanggan Kabur Saat Tanya Harga\n**Target Durasi:** 30 detik\n\n---\n\n**Adegan 1 (0-5 detik)**\n* **Visual:** Pemilik UMKM pegang HP, pasang muka stres sambil lihat layar. Teks besar di tengah: \"Dicatin 'Berapa?', Pas Dikasih Harga Malah Ilang?\"\n* **Suara/Teks:** \"Sering dicatin 'Berapa?' tapi ilang? Jangan-jangan cara balas chatmu salah.\"\n\n**Adegan 2 (5-15 detik)**\n* **Visual:** Contoh chat jelek di layar: *\"Rp50.000 Kak.\"* Teks dicoret merah. Lalu ganti layar ke contoh chat bagus.\n* **Suara/Teks:** \"Jangan cuma kasih angka. Pelanggan bakal kabur kalau nggak tahu nilai produkmu.\"\n\n**Adegan 3 (15-25 detik)**\n* **Visual:** Pemilik UMKM ngetik cepat di HP sambil tersenyum optimis. Teks: \"Harga sudah termasuk X, Y, Z + Garansi.\"\n* **Suara/Teks:** \"Ganti jadi: 'Rp50.000 sudah termasuk bonus ini, kak. Mau kirim sekarang atau besok?'\"\n\n**Adegan 4 (25-30 detik)**\n* **Visual:** Pemilik UMKM nunjuk ke arah tombol *Call to Action* di bawah. Teks: \"Simpan video ini buat dicoba nanti!\"\n* **Suara/Teks:** \"Fokus ke solusi, bukan cuma harga. Coba praktikkan hari ini!\"\n\n---\n*Total Kata: 68 kata.*"
+      "output": "**Judul:** Pantesan Boncos!\n**Ide:** Pemisahan uang pribadi dan toko.\n\n---\n\n**[00:00 - 00:03] Hook**\n* **Visual:** Pegang dompet tebal tapi muka sedih, lalu zoom-in ke layar HP mutasi rekening.\n* **Audio/Teks:** \"Pantesan omzet puluhan juta tapi dompet boncos, ternyata uang kas masih campur uang jajan!\"\n\n**[00:03 - 00:15] Masalah**\n* **Visual:** Hitung uang tunai di kasir sambil comot buat bayar belanjaan pribadi. \n* **Audio/Teks:** \"Banyak UMKM bangkrut bukan karena sepi, tapi karena uang toko dipakai buat beli kebutuhan pribadi tanpa dicatat.\"\n\n**[00:15 - 00:25] Solusi**\n* **Visual:** Menunjukkan dua dompet berbeda warna atau aplikasi pembukuan di HP.\n* **Audio/Teks:** \"Mulai hari ini, bikin 2 rekening beda. Gaji dirimu sendiri dari awal, dan kunci uang hasil jualan murni untuk putar modal.\"\n\n**[00:25 - 00:30] Call to Action**\n* **Visual:** Menunjuk ke arah bawah (kolom caption).\n* **Audio/Teks:** \"Bisnis sehat itu uangnya rapi. Coba cek dompetmu sekarang, masih dicampur?\"\n\n*(Total: 104 kata)*"
     },
     {
       "id": "zaki",
@@ -46,7 +46,7 @@
       "room": "brain",
       "state": "selesai",
       "last_task": "Review naskah Ale. Baris pertama jawabanmu harus persis 'KEPUTUSAN: SETUJU' atau 'KEPUTUSA",
-      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. Durasi 30 detik pas dan ringkas untuk format Instagram Reels.\n2. Hook langsung menyasar *pain point* utama UMKM (pelanggan kabur saat tanya harga).\n3. Solusi yang diberikan konkret dan bisa langsung dipraktikkan audiens."
+      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. Naskah langsung mengeksekusi ide terbaik dari Mila terkait masalah keuangan UMKM yang sangat relevan.\n2. Struktur durasi rapi: hook kuat di 3 detik pertama, masalah jelas, solusi konkret, dan CTA-nya efektif.\n3. Bahasa santai, ringkas, dan sesuai dengan target audiens Instagram Reels."
     },
     {
       "id": "rara",
@@ -55,7 +55,7 @@
       "room": "video",
       "state": "selesai",
       "last_task": "Ubah naskah Ale menjadi 4 sampai 6 adegan video. Jawab HANYA dengan JSON array tanpa teks ",
-      "output": "Video 5 adegan, dengan suara.\n\n1. Dicatin 'Berapa?', Pas Dikasih Harga Ilang?\n2. Jangan cuma kasih angka ke pelanggan!\n3. Ganti kalimat: 'Harga sudah termasuk bonus + garansi'\n4. Fokus ke solusi, bukan cuma harga.\n5. Simpan video ini buat dicoba nanti!",
+      "output": "Video 5 adegan, dengan suara.\n\n1. Pantesan omzet puluhan juta tapi dompet boncos!\n2. Uang toko dipakai buat kebutuhan pribadi.\n3. Bikin dua rekening bank yang berbeda.\n4. Bisnis sehat itu uangnya rapi.\n5. Simpan video ini dan follow untuk tips bisnis!",
       "file": "video/terbaru.mp4"
     },
     {
@@ -65,45 +65,45 @@
       "room": "sosmed",
       "state": "selesai",
       "last_task": "Siapkan antrean posting 3 hari: tiap hari tulis jam tayang, caption (maksimal 3 kalimat), ",
-      "output": "Siap. Berikut antrean posting 3 hari untuk Instagram Reels:\n\n**Hari 1**\n* **Jam Tayang:** 18.30 WIB (Jam istirahat sore)\n* **Caption:** Sering banget kan dicatin harga tapi pembeli malah senyap? Yuk, ubah cara balas chat pelangganmu mulai hari ini. Simpan videonya dan praktikkan langsung ya!\n* **Hashtag:** #TipsUMKM #JualanLaris #BisnisPemula #TipsWhatsapp #StrategiBisnis\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Jam makan siang)\n* **Caption:** Masih sering sepi pas jam jualan? Jangan salahin pasaran dulu, cek lagi cara closing kamu di WhatsApp. Coba teknik ini biar pembeli nggak \"ghosting\".\n* **Hashtag:** #UMKMIndonesia #TrikJualan #BelajarBisnis #KulinerLaris #BisnisOnline\n\n**Hari 3**\n* **Jam Tayang:** 19.30 WIB (Jam santai malam)\n* **Caption:** Jualan online bukan cuma soal pasang foto bagus, tapi juga cara komunikasi. Nih, bocoran kalimat ampuh buat jawab pertanyaan harga. Bagikan ke temanmu yang jualan juga!\n* **Hashtag:** #TipsBisnis #PengusahaMuda #UMKMNaikKelas #MarketingPemula #TokoOnline"
+      "output": "Siap. Berikut antrean posting Instagram Reels selama 3 hari menggunakan naskah yang disetujui:\n\n**Hari 1**\n* **Jam Tayang:** 18.30 WIB (Prime time sore)\n* **Caption:** Omzet kelihatan besar tapi dompet tipis? Jangan-jangan uang toko masih dipakai jajan pribadi. Tonton video ini sampai habis untuk solusinya!\n* **Hashtag:** #TipsUMKM #BisnisPemula #KeuanganBisnis #KelolaKeuangan #BelajarBisnis\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Jam istirahat siang)\n* **Caption:** Bisnis jalan terus tapi nggak ada sisa buat ditabung? Coba pisahkan rekeningmu sekarang juga. Simpan videonya buat dipraktekkan nanti!\n* **Hashtag:** #UMKMIndonesia #TipsBisnis #PengusahaMuda #ManajemenKeuangan #BisnisOnline\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB (Waktu santai malam)\n* **Caption:** Siapa nih yang masih nyampur duit modal sama duit pribadi? Yuk, rapikan keuangan usahamu dari sekarang biar nggak boncos. Follow akun ini untuk tips harian lainnya!\n* **Hashtag:** #KiatBisnis #ModalUsaha #UMKMNaikKelas #BisnisKecil #StrategiBisnis"
     }
   ],
   "log": [
     {
-      "t": "04:59",
+      "t": "04:10",
       "agent": "gilang",
-      "text": "Karena tidak ada data performa yang dilampirkan, analisis ini menggunakan **asumsi umum industri**, bukan data nyata dari akun kita."
+      "text": "Data performa kosong. Analisis ini menggunakan **asumsi umum**, bukan data nyata."
     },
     {
-      "t": "05:00",
+      "t": "04:10",
       "agent": "dion",
-      "text": "Siap, ini 5 ide Reels berdasarkan pola hook menang dari Gilang:"
+      "text": "Siap, ini 5 ide Reels untuk UMKM berdasarkan temuan Gilang:"
     },
     {
-      "t": "05:01",
+      "t": "04:11",
       "agent": "mila",
-      "text": "Evaluasi ide Dion: Ide 1, 3, dan 5 langsung menyasar masalah operasional harian UMKM. Ide 2 dan 4 terlalu mirip (sama-sama bahas iklan/promo"
+      "text": "Kritik: Ide Dion bagus, tapi Ide 3 klise dan berbau *clickbait* bodong (berisiko hilang trust). Ide 5 tumpang tindih dengan Ide 2, angle \"HP"
     },
     {
-      "t": "05:03",
+      "t": "04:11",
       "agent": "ale",
-      "text": "Siap. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila."
+      "text": "**Judul:** Pantesan Boncos!"
     },
     {
-      "t": "05:03",
+      "t": "04:11",
       "agent": "zaki",
       "text": "KEPUTUSAN: SETUJU"
     },
     {
-      "t": "05:05",
+      "t": "04:12",
       "agent": "rara",
       "text": "["
     },
     {
-      "t": "05:06",
+      "t": "04:13",
       "agent": "bima",
-      "text": "Siap. Berikut antrean posting 3 hari untuk Instagram Reels:"
+      "text": "Siap. Berikut antrean posting Instagram Reels selama 3 hari menggunakan naskah yang disetujui:"
     }
   ],
-  "updated": "2026-11-25T05:06:35+07:00"
+  "updated": "2026-11-26T04:13:13+07:00"
 }
