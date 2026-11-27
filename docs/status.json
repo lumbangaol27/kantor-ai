@@ -10,7 +10,7 @@
       "room": "konten",
       "state": "selesai",
       "last_task": "Baca data performa konten (jika ada). Cari 3 pola hook yang menang dan 3 yang kalah, lengk",
-      "output": "Halo, saya Gilang, Content Analyst. \n\nKarena data performa konten kosong, analisis ini menggunakan **asumsi umum terbaik** berdasarkan tren Instagram Reels edukasi bisnis kecil/UMKM di Indonesia, **bukan data nyata** dari akun kita.\n\nBerikut identifikasi pola *hook*:\n\n**3 Pola Hook Menang (Asumsi Tren):**\n1. **Solusi Masalah Finansial:** *\"Gaji UMKM campur duit pribadi? Ini bahayanya.\"* (Alasan: Relate langsung dengan pain point pemilik usaha kecil).\n2. **Angka/Hasil Cepat:** *\"Cara naikin omzet 2x lipat pake Reels doang.\"* (Alasan: Menawarkan hasil konkret yang memicu rasa penasaran).\n3. **Membongkar Mitos:** *\"Jangan pasang iklan dulu sebelum paham ini!\"* (Alasan: Menghentikan *scrolling* karena menantang kebiasaan umum).\n\n**3 Pola Hook Kalah (Asumsi Tren):**\n1. **Teori Terlalu Formal:** *\"Pengantar Manajemen Rantai Pasok untuk Usaha Mikro.\"* (Alasan: Membosankan dan terkesan seperti kuliah).\n2. **Terlalu Panjang & Bertele-tele:** *\"Halo semuanya, di video kali ini saya mau sharing tentang...\"* (Alasan: Audiens keburu *swipe* sebelum masuk inti topik).\n3. **Pertanyaan Klise:** *\"Bisnis kalian lagi sepi gak?\"* (Alasan: Terlalu generik dan sering dipakai kreator lain).\n\n*Catatan: Segera berikan data performa riil agar analisis ini bisa disesuaikan dengan metrik aktual kita.*"
+      "output": "Halo, saya Gilang, Content Analyst. \n\nKarena data performa konten kosong, analisis ini murni **asumsi umum** berdasarkan tren edukasi bisnis/UMKM di Instagram Reels, bukan data nyata dari akun kita.\n\n**3 Pola Hook Menang (Asumsi):**\n1. **\"Jangan buka [jenis usaha] sebelum tahu ini.\"** (Rasa penasaran tinggi & *fear of missing out*).\n2. **\"Modal 500rb tapi omzet 10 juta, caranya...\"** (Menawarkan solusi konkret dan angka menarik).\n3. **\"Kesalahan fatal UMKM yang bikin sepi.\"** (Memancing *relatability* dan rasa cemas pemilik usaha).\n\n**3 Pola Hook Kalah (Asumsi):**\n1. **\"Halo teman-teman, hari ini kita bahas...\"** (Terlalu lambat, audiens langsung *swipe*).\n2. **\"Tips Manajemen Keuangan Bisnis Bagian 1.\"** (Terlalu formal, mirip materi kuliah, kurang menggugah emosi).\n3. **\"Pentingnya Branding untuk Usaha.\"** (Terlalu abstrak dan klise, tidak ada urgensi).\n\n*Catatan: Segera berikan data performa riil agar saya bisa menganalisis angka yang sebenarnya.*"
     },
     {
       "id": "dion",
@@ -19,7 +19,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Dari temuan Gilang, buat 5 ide konten Reels. Tiap ide: judul, hook kalimat pertama, dan al",
-      "output": "Halo, saya Dion. Siap eksekusi ide Reels UMKM berdasarkan analisis Gilang.\n\nBerikut 5 ide kontennya:\n\n1. **Campur Duit?**\n   * **Judul:** Pisah Keuangan Usaha\n   * **Hook:** *\"Gaji UMKM masih dicampur duit pribadi? Ini bahayanya.\"*\n   * **Alasan:** *Relate* langsung dengan *pain point* utama pelaku UMKM.\n\n2. **Omzet Naik**\n   * **Judul:** Strategi Reels Bisnis\n   * **Hook:** *\"Cara naikin omzet 2x lipat pake Reels doang.\"*\n   * **Alasan:** Menawarkan hasil instan dan konkret yang memicu rasa penasaran.\n\n3. **Stop Iklan**\n   * **Judul:** Jangan Boncos Iklan\n   * **Hook:** *\"Jangan pasang iklan dulu sebelum paham ini!\"*\n   * **Alasan:** Menantang kebiasaan umum untuk menghentikan *scrolling*.\n\n4. **Stok Menumpuk**\n   * **Judul:** Kelola Stok Macet\n   * **Hook:** *\"Barang numpuk gak laku? Jangan diskon, lakuin ini dulu.\"*\n   * **Alasan:** Solusi cepat atas masalah kas boncos UMKM.\n\n5. **Modal Kecil**\n   * **Judul:** Bisnis Minim Modal\n   * **Hook:** *\"Modal di bawah 1 juta tapi bisa jalan? Ini strateginya.\"*\n   * **Alasan:** Menjawab rasa penasaran pemula yang ingin mulai bisnis."
+      "output": "Siap, Dion di sini. Menindaklanjuti temuan Gilang, ini 5 ide Reels edukasi UMKM yang langsung *actionable*:\n\n1. **Ide 1: Jangan Buka Kafe Sebelum Tahu Ini**\n   * **Hook:** \"Jangan buka usaha kuliner sebelum tahu trik hitung HPP ini.\"\n   * **Alasan:** Memanfaatkan pola *FOMO* untuk memaksa audiens berhenti *swipe*.\n\n2. **Ide 2: Bongkar Omzet Kecil**\n   * **Hook:** \"Modal 500 ribu tapi tiap hari bisa bungkus 50 pesanan, begini caranya.\"\n   * **Alasan:** Angka konkret langsung menarik perhatian pelaku UMKM yang cari cuan cepat.\n\n3. **Ide 3: Evaluasi Toko Sepi**\n   * **Hook:** \"Kesalahan fatal UMKM yang bikin toko kamu sepi pembeli tiap hari.\"\n   * **Alasan:** Memicu *relatability* dan rasa cemas yang solutif.\n\n4. **Ide 4: Trik Harga Coret**\n   * **Hook:** \"Bukan kasih diskon, pakai cara ini biar produk UMKM cepat ludes.\"\n   * **Alasan:** Menawarkan strategi *anti-mainstream* yang membuat penasaran.\n\n5. **Ide 5: Solusi Kas Toko Bocor**\n   * **Hook:** \"Uang kas toko sering hilang entah ke mana? Cek 1 hal ini sekarang.\"\n   * **Alasan:** Menyasar masalah operasional paling krusial sehari-hari pemilik usaha."
     },
     {
       "id": "mila",
@@ -28,7 +28,7 @@
       "room": "brainstorm",
       "state": "selesai",
       "last_task": "Kritik ide Dion, buang yang lemah, pilih 3 terbaik dan perbaiki hook-nya. Urutkan dari pal",
-      "output": "Halo! Saya Mila. Kritik untuk Dion: ide sudah bagus dan *relate*, tapi beberapa *hook* masih terlalu generik dan kurang *punchy*. \n\nBerikut 3 ide terbaik yang sudah dikurasi dan diperkuat *hook*-nya, diurutkan dari yang paling kuat:\n\n1. **Pisah Keuangan (Paling Kuat)**\n   * **Hook Baru:** *\"Tobatlah! Nyampur duit pribadi sama omzet toko bikin UMKM lu bangkrut perlahan.\"*\n   * **Alasan:** Emosional, menohok langsung ke kebiasaan buruk pemilik usaha.\n\n2. **Stop Iklan**\n   * **Hook Baru:** *\"Uang iklan habis tapi boncos? Stop bakar duit sosmed sebelum lu cek 1 hal ini.\"*\n   * **Alasan:** Menawarkan solusi pencegahan kerugian yang sangat ditakuti UMKM.\n\n3. **Stok Menumpuk**\n   * **Hook Baru:** *\"Barang toko gak gerak? Jangan asal banting harga, rugi bandar!\"*\n   * **Alasan:** Memberikan *urgent warning* dengan bahasa sehari-hari yang * catchy*. \n\nDua ide lainnya (Omzet Naik & Modal Kecil) saya buang karena terlalu klise dan sering dipakai kreator lain."
+      "output": "Halo, Mila di sini. \n\nKritik untuk Dion: Ide 1, 2, dan 3 terlalu umum dan mirip asumsi Gilang. Kita butuh yang lebih spesifik ke masalah operasional harian. Ide 4 dan 5 bagus karena langsung menyasar *pain point* kasir/keuangan.\n\n3 ide terbaik yang dipertajam dan diurutkan dari terkuat:\n\n1. **Uang Toko Bocor (Dari Ide 5):**\n   * **Hook:** \"Uang kas toko bocor tapi enggak tahu di mana? Cek 1 kebiasaan kasir ini.\"\n   * **Alasan:** Paling mendesak untuk pemilik toko fisik.\n\n2. **Strategi Harga Coret (Dari Ide 4):**\n   * **Hook:** \"Jangan kasih diskon! Pakai rumus harga coret ini biar stok cepat ludes.\"\n   * **Alasan:** Solusi taktis anti-rugi yang langsung dicari UMKM.\n\n3. **Evaluasi Toko Sepi (Perbaikan Ide 3):**\n   * **Hook:** \"Kenapa toko sebelah ramai, tapi tokomu sepi? Cek bio Instagram-mu sekarang.\"\n   * **Alasan:** Mengubah masalah umum menjadi aksi digital yang spesifik."
     },
     {
       "id": "ale",
@@ -37,7 +37,7 @@
       "room": "kreatif",
       "state": "selesai",
       "last_task": "Tulis naskah Reels 30 detik untuk ide nomor 1 dari Mila. Hook pendek, satu ide per adegan,",
-      "output": "Halo, saya Ale, Penulis Naskah. Ini naskah Reels 30 detik berdasarkan ide nomor 1 dari Mila.\n\n**Judul:** Pisah Keuangan\n**Durasi:** 30 Detik\n**Target Kata:** ±80 kata\n\n---\n\n**Scene 1 (0-5 detik)**\n* **Visual:** Pemilik toko pegang kalkulator dengan muka cemas, teks besar di layar.\n* **Teks/Suara:** *\"Tobatlah! Nyampur duit pribadi sama omzet toko bikin UMKM lu bangkrut perlahan.\"*\n\n**Scene 2 (5-15 detik)**\n* **Visual:** Rekaman layar saat ambil uang kas toko buat beli kopi pribadi.\n* **Teks/Suara:** *\"Sering, kan, ambil uang kas buat jajan? Lu kira pinjam, padahal itu gali kubur buat bisnis sendiri. Arus kas jadi berantakan.\"*\n\n**Scene 3 (15-25 detik)**\n* **Visual:** Pemilik toko nulis buku catatan/aplikasi keuangan terpisah.\n* **Teks/Suara:** *\"Mulai hari ini, gajinya UMKM-nya ditentukan. Pisahkan rekening pribadi dan usaha, sekecil apapun toko lu.\"*\n\n**Scene 4 (25-30 detik)**\n* **Visual:** Tersenyum tunjuk produk, teks CTA di layar.\n* **Teks/Suara:** *\"Bisnis sehat, dompet aman. Simpan video ini sebelum lu khilaf lagi!\"*"
+      "output": "Halo, saya Ale, Penulis Naskah. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila (\"Uang Kas Toko Bocor\").\n\n**Judul:** Cara Cek Kebocoran Kas Toko\n**Durasi:** 30 Detik\n\n---\n\n**Adegan 1 (0-5 detik)**\n* **Visual:** Pemilik toko pegang kepala di depan meja kasir sambil lihat nota berantakan. Teks besar di layar: UANG KAS TOKO BOCOR?\n* **Suara/Teks:** \"Uang kas toko bocor tapi enggak tahu di mana? Cek 1 kebiasaan kasir ini sekarang!\"\n\n**Adegan 2 (5-15 detik)**\n* **Visual:** *Close-up* tangan kasir memberikan uang kembalian tanpa mencatat di mesin kasir atau buku.\n* **Suara/Teks:** \"Sering ada transaksi tunai yang 'lupa' masuk catatan? Atau kasih diskon manual ke teman tanpa izin? Ini sumber utama uang toko amblas.\"\n\n**Adegan 3 (15-25 detik)**\n* **Visual:** Pemilik toko tegas menunjukkan buku kas/sistem digital ke karyawan.\n* **Suara/Teks:** \"Mulai hari ini, wajibkan cetak struk untuk *setiap* transaksi. Tanpa terkecuali.\"\n\n**Adegan 4 (25-30 detik)**\n* **Visual:** Pemilik toko tersenyum mengecek laporan keuangan di HP. Teks: *Follow* untuk tips UMKM lainnya.\n* **Suara/Teks:** \"Kas aman, bisnis tenang. *Save* video ini biar enggak lupa!\"\n\n---\n**Total Kata:** 72 kata."
     },
     {
       "id": "zaki",
@@ -46,7 +46,7 @@
       "room": "brain",
       "state": "selesai",
       "last_task": "Review naskah Ale. Baris pertama jawabanmu harus persis 'KEPUTUSAN: SETUJU' atau 'KEPUTUSA",
-      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. **Hook Kuat & Sesuai Kurasi:** Menggunakan hook dari Mila yang emosional dan langsung menohok *pain point* UMKM.\n2. **Durasi & Alur Pas:** Struktur 30 detik sangat ideal untuk Reels, langsung ke inti masalah di awal dan ada CTA jelas di akhir.\n3. **Bahasa Relate:** Penggunaan bahasa sehari-hari (\"gali kubur\", \"khilaf\") sangat pas untuk target audiens UMKM Indonesia."
+      "output": "KEPUTUSAN: SETUJU\n\nAlasan:\n1. **Struktur pas:** Durasi 30 detik sangat ideal untuk Reels edukasi, tidak bertele-tele.\n2. **Hook kuat:** Langsung menyasar *pain point* utama pemilik toko (kas bocor) sesuai kurasi Mila.\n3. **Actionable:** Solusi di akhir (wajib cetak struk) sangat konkret dan bisa langsung dipraktikkan."
     },
     {
       "id": "rara",
@@ -55,7 +55,7 @@
       "room": "video",
       "state": "selesai",
       "last_task": "Ubah naskah Ale menjadi 4 sampai 6 adegan video. Jawab HANYA dengan JSON array tanpa teks ",
-      "output": "Video 5 adegan, dengan suara.\n\n1. Nyampur duit bikin UMKM bangkrut!\n2. Ambil uang kas buat jajan pribadi?\n3. Arus kas jadi berantakan total!\n4. Pisahkan rekening pribadi dan usaha!\n5. Simpan video ini sebelum khilaf lagi!",
+      "output": "Video 5 adegan, dengan suara.\n\n1. UANG KAS TOKO BOCOR?\n2. TRANSAKSI TUNAI LUPA DICATAT\n3. SUMBER UTAMA KAS AMBLAS\n4. WAJIB CETAK STRUK TIAP TRANSAKSI\n5. KAS AMAN, BISNIS TENANG",
       "file": "video/terbaru.mp4"
     },
     {
@@ -65,45 +65,45 @@
       "room": "sosmed",
       "state": "selesai",
       "last_task": "Siapkan antrean posting 3 hari: tiap hari tulis jam tayang, caption (maksimal 3 kalimat), ",
-      "output": "Halo, saya Bima. Berikut antrean posting Instagram Reels untuk 3 hari ke depan berdasarkan naskah yang disetujui:\n\n**Hari 1**\n* **Jam Tayang:** 18.30 WIB (Jam istirahat sore)\n* **Caption:** Nyampur duit pribadi sama omzet toko itu bahaya banget buat UMKM. Mulai sekarang, pisahkan rekeningnya biar bisnis gak boncos. Simpan videonya buat pengingat!\n* **Hashtag:** #TipsUMKM #KelolaKeuangan #BisnisPemula #TipsBisnis #UMKMIndonesia\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB (Jam istirahat siang)\n* **Caption:** Sering ambil uang kas buat jajan? Hati-hati, itu bikin arus kas berantakan total. Yuk, mulai gajian dari usaha secara teratur.\n* **Hashtag:** #KeuanganBisnis #ModalUsaha #PengusahaKecil #BisnisOnline #BelajarBisnis\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB (Waktu santai malam)\n* **Caption:** Bisnis sehat berawal dari manajemen keuangan yang rapi. Sekecil apapun toko lu, rekening pribadi dan usaha wajib dipisah. Tag teman sesama pemilik UMKM!\n* **Hashtag:** #StrategiBisnis #UMKMNaikKelas #ManajemenKeuangan #TipsToko #BisnisLokal"
+      "output": "**Hari 1**\n* **Jam Tayang:** 18.30 WIB\n* **Caption:** Uang kas toko sering hilang entah ke mana? Jangan biarkan kebiasaan sepele kasir merusak bisnis Anda. Tonton video ini sampai habis untuk solusinya!\n* **Hashtag:** #TipsUMKM #KelolaKeuangan #BisnisPemula #KasirToko #ManajemenUsaha\n\n**Hari 2**\n* **Jam Tayang:** 12.00 WIB\n* **Caption:** Bisnis kuliner atau toko retail wajib tahu trik ini agar laporan keuangan tetap bersih. Simpan videonya untuk dipraktikkan nanti!\n* **Hashtag:** #BelajarBisnis #UMKMIndonesia #KeuanganBisnis #TipsToko #PengusahaMuda\n\n**Hari 3**\n* **Jam Tayang:** 19.00 WIB\n* **Caption:** Kas aman, pemilik tenang. Mulai tertibkan pencatatan transaksi toko Anda hari ini juga. Follow akun ini untuk strategi bisnis harian lainnya.\n* **Hashtag:** #StrategiBisnis #BisnisSukses #TokoRame #KulinerIndonesia #EdukasiBisnis"
     }
   ],
   "log": [
     {
-      "t": "03:59",
+      "t": "03:45",
       "agent": "gilang",
       "text": "Halo, saya Gilang, Content Analyst. "
     },
     {
-      "t": "04:00",
+      "t": "03:46",
       "agent": "dion",
-      "text": "Halo, saya Dion. Siap eksekusi ide Reels UMKM berdasarkan analisis Gilang."
+      "text": "Siap, Dion di sini. Menindaklanjuti temuan Gilang, ini 5 ide Reels edukasi UMKM yang langsung *actionable*:"
     },
     {
-      "t": "04:01",
+      "t": "03:46",
       "agent": "mila",
-      "text": "Halo! Saya Mila. Kritik untuk Dion: ide sudah bagus dan *relate*, tapi beberapa *hook* masih terlalu generik dan kurang *punchy*. "
+      "text": "Halo, Mila di sini. "
     },
     {
-      "t": "04:02",
+      "t": "03:48",
       "agent": "ale",
-      "text": "Halo, saya Ale, Penulis Naskah. Ini naskah Reels 30 detik berdasarkan ide nomor 1 dari Mila."
+      "text": "Halo, saya Ale, Penulis Naskah. Ini naskah Reels 30 detik untuk ide nomor 1 dari Mila (\"Uang Kas Toko Bocor\")."
     },
     {
-      "t": "04:02",
+      "t": "03:49",
       "agent": "zaki",
       "text": "KEPUTUSAN: SETUJU"
     },
     {
-      "t": "04:03",
+      "t": "03:51",
       "agent": "rara",
       "text": "["
     },
     {
-      "t": "04:05",
+      "t": "03:52",
       "agent": "bima",
-      "text": "Halo, saya Bima. Berikut antrean posting Instagram Reels untuk 3 hari ke depan berdasarkan naskah yang disetujui:"
+      "text": "**Hari 1**"
     }
   ],
-  "updated": "2026-11-27T04:05:11+07:00"
+  "updated": "2026-11-28T03:52:54+07:00"
 }
